@@ -5,9 +5,13 @@ Pocket Quest is a lightweight, arcade-style Pokémon adventure built entirely in
 ✨ Features
 
 • Procedural 1,000 Species Roster: Combines legendary fan favorites with dynamically generated species prefixes and suffixes to provide a massive pool of catchable monsters. 
+
 • Dynamic Evolution Mechanics: Level up your partner to trigger evolutions at custom level milestones (e.g., Bulbasaur evolving into Ivysaur, then Venusaur). 
+
 • Intense Titan Boss Battles: Every 5 captures triggers a formidable Boss encounter against giant variants like Titan Mewtwo or Titan Charizard. 
+
 • Vector Graphics Engine: Renders clean, modern shapes and animations using pure geometric code—eliminating the need to package bulky image assets. 
+
 • Turn-Based Battle System: Pick your strategy from an 8-slot move library featuring damage variants, high-risk mystic strikes, and utility heals. 
 
 🛠️ Installation & Setup
@@ -21,22 +25,22 @@ Make sure you have Python 3 installed on your machine.
 
 bash
 git clone https://github.com
+
 cd pocket-quest
-Use code with caution.
 
 2. Install Dependencies
 
 Pocket Quest relies exclusively on pygame: 
 bash
 python -m pip install pygame
-Use code with caution.
 
 3. Run the Game
 
 Execute the main file to boot up the title screen: 
+
 bash
+
 python "Pokemon game.py"
-Use code with caution.
 
 🎮 How to Play & Controls
 
@@ -63,8 +67,13 @@ Your primary partner will automatically morph into stronger forms upon reaching 
 
 Base Starter	Evolves At	Form 2	Evolves At	Form 3
 Bulbasaur	Lv. 5	Ivysaur	Lv. 10	Venusaur
+
 Charmander	Lv. 5	Charmeleon	Lv. 10	Charizard
+
 Squirtle	Lv. 5	Wartortle	Lv. 10	Blastoise
+
 Pikachu	Lv. 8	Raichu	—	—
+
 Eevee	Lv. 7	Vaporeon	—	—
+
 Ralts	Lv. 8	Gardevoir	—	—
